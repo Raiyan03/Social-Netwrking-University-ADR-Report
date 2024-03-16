@@ -63,7 +63,7 @@ Our application will require an infinitely scalable and adaptive database that c
 
 ## Decision
 
-By schema-less nature of MongoDB, we imply that the diversity and dynamism of the data type associated with social networking—those like user profiles, posts, comments, among others—are flexible to accommodate. They are highly scalable and are able to give high performance for large volumes of data, which befits a dynamic environment of a university social network. Easy integration with Node.js makes development Easy. Further, MongoDB offers strong data management features required for real-time data synchronization and capabilities for offline access.
+By schema-less nature of MongoDB, we imply that the diversity and dynamism of the data type associated with social networking those like user profiles, posts, comments, among others are flexible to accommodate. They are highly scalable and are able to give high performance for large volumes of data, which befits a dynamic environment of a university social network. Easy integration with Node.js makes development Easy. Further, MongoDB offers strong data management features required for real-time data synchronization and capabilities for offline access.
 
 ## Consequences
 
