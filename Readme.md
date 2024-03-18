@@ -67,4 +67,26 @@ By schema-less nature of MongoDB, we imply that the diversity and dynamism of th
 
 ## Consequences
 
-The use of MongoDB for unstructured data will help us well manage the data and be able to scale up as users increase. In doing so, we shall apply the best practices in database designs and security to make sure we guarantee the data's integrity and protection, bearing in mind that this is sensitive educational data.
+The use of MongoDB for unstructured data will help us well manage the data and be able to scale up as users increase. In doing so, we shall apply theing best practices in database designs and security to make sure we guarantee the data's integrity and protection, bearing in mind that this is sensitive educational data.
+
+# Managing Permissions 
+
+## Status
+Pending 
+
+## Context
+The weather app requires access to the device's location services to give the user real-time weather updates. The decision involves how to request these permissions from the user and the consequences of granting or denying them.
+
+## Decision
+
+We will request the location services to access the user's current location for real-time weather updates.
+
+## Consequences 
+### Positive 
+Access to location services will allow for real-time and accurate weather updates. Requesting permissions is a standard practice for apps and ensures compliance with app store guidelines. 
+
+### Negative
+This may cause the user to be hesitant to grant permissions, especially if not clear how their data will be used. If the user deny the requested permissions, the functionality of the app may be limited, affecting their experience
+
+### Mitigation 
+Communicate to the users why permissions are needed and how they will be used. If all fails provide a fallback for those who deny permissions.
