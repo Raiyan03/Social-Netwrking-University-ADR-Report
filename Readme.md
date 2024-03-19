@@ -72,7 +72,7 @@ The use of MongoDB for unstructured data will help us well manage the data and b
 # Managing Permissions 
 
 ## Status
-Pending 
+Accepted 
 
 ## Context
 The weather app requires access to the device's location services to give the user real-time weather updates. The decision involves how to request these permissions from the user and the consequences of granting or denying them.
